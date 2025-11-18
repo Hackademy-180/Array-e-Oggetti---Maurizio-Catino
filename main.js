@@ -64,11 +64,11 @@
 
 // ESERCIZIO 7 : Classifica dei Punteggi: Hai un array di punteggi punteggi = [105, 42, 200, 18, 90]. Ordina l'array dal punteggio più alto al più basso (ordine decrescente). Suggerimento: devi usare una funzione di confronto personalizzata per l'ordinamento numerico. Stampa l'array ordinato.
 
-// let punteggi = [105, 42, 200, 18, 90];
+let punteggi = [105, 42, 200, 18, 90];
 
-// punteggi.sort( (a , b)=> b - a);
+punteggi.sort( (a , b)=> a - b);
 
-// console.log(punteggi);
+console.log(punteggi);
 
 // ESERCIZIO 8 : Calcolo del Totale: Hai un array di prezzi di articoli: prezzi = [4.50, 12.99, 0.75, 22.00]. Usa ... per calcolare il totale complessivo di tutti i prezzi e memorizzarlo nella variabile totaleSpesa. Stampa totaleSpesa.
 
@@ -97,9 +97,14 @@
 
 // ESERCIZIO 11 : Visualizzazione del Menù: Hai un array di voci di menù: menu = ["Antipasto", "Primo", "Secondo", "Dolce"]. Usa ... per stampare in console ogni voce di menù, preceduta dalla frase: "Voce disponibile: ".
 
-menu = ["Antipasto", "Primo", "Secondo", "Dolce"];
+// menu = ["Antipasto", "Primo", "Secondo", "Dolce"];
 
-let MenuCompleto = menu.forEach( (pasto)=> {console.log("Voce disponibile: " + pasto)});
+// let MenuCompleto = menu.forEach( (pasto)=> {console.log("Voce disponibile: " + pasto)});
+
+// let MenuCompleto = menu.map ((pasto) => "Voce disponibile: " + pasto)
+
+// console.log(MenuCompleto);
+
 
 
 
